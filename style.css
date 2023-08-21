@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: blue;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1689656966481-043a970b7c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center;
+}
+#hero-heading{
+   color: white; 
+   font-size: 50px;
+   padding-top: 80px;
+   text-shadow: 2px 3px 28px black;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+#hero-text
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+#hero-btn{
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+
+}
+
+/* pseudo class elector-> changes the bg color when hoveer */
+#hero-btn:hover{
+    background-color: orangered;
+    color: blue;
+
+}
